@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\Publish\GTBASE 20150108-14.13" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="assets/images/overlay-bg.png" publishTime="10/13/2014 17:29:20" />
+    <file relUrl="templates/map-examples/settingsUse.htm" publishTime="10/24/2014 11:49:04" />
+    <file relUrl="templates/T09.htm" publishTime="10/24/2014 17:23:43" />
+    <file relUrl="templates/map-examples/methodsUse.htm" publishTime="10/24/2014 11:48:56" />
+    <file relUrl="assets/scripts/lib/infobox.js" publishTime="10/24/2014 11:29:00" />
+    <file relUrl="templates/T03.htm" publishTime="10/24/2014 17:23:42" />
+    <file relUrl="templates/T04.htm" publishTime="10/24/2014 17:23:42" />
+    <file relUrl="assets/styles/prettyfy.css" publishTime="11/03/2014 17:50:09" />
+    <file relUrl="assets/scripts/lib/jquery.iosslider.min.js" publishTime="10/13/2014 17:29:18" />
+    <file relUrl="templates/T10.htm" publishTime="10/24/2014 17:23:43" />
+    <file relUrl="assets/scripts/lib/jquery-ui.js" publishTime="10/13/2014 17:29:18" />
+    <file relUrl="templates/images/infobox.png" publishTime="10/24/2014 11:50:10" />
+    <file relUrl="assets/styles/main.css" publishTime="01/09/2015 14:12:55" />
+    <file relUrl="assets/scripts/main.js" publishTime="01/07/2015 10:21:47" />
+    <file relUrl="templates/skyEmail.htm" publishTime="10/13/2014 17:29:20" />
+    <file relUrl="templates/T06.htm" publishTime="10/24/2014 13:04:37" />
+    <file relUrl="templates/T11.htm" publishTime="10/24/2014 17:23:44" />
+    <file relUrl="templates/T08.htm" publishTime="11/03/2014 18:07:22" />
+    <file relUrl="templates/T04b.htm" publishTime="11/03/2014 18:28:46" />
+    <file relUrl="templates/T01.htm" publishTime="10/24/2014 17:23:42" />
+    <file relUrl="assets/scripts/lib/gtmaps.js" publishTime="10/24/2014 11:29:00" />
+    <file relUrl="templates/images/marker.png" publishTime="10/24/2014 11:50:10" />
+    <file relUrl="index.htm" publishTime="01/07/2015 15:36:54" />
+    <file relUrl="templates/T02.htm" publishTime="11/03/2014 19:17:00" />
+    <file relUrl="templates/images/marker2-active.png" publishTime="10/24/2014 11:50:10" />
+    <file relUrl="templates/T07.htm" publishTime="10/24/2014 17:23:43" />
+    <file relUrl="assets/scripts/functions.js" publishTime="01/07/2015 10:18:41" />
+    <file relUrl="assets/images/largeSpinner.gif" publishTime="10/13/2014 17:29:20" />
+    <file relUrl="templates/images/marker-active.png" publishTime="10/24/2014 11:50:10" />
+    <file relUrl="templates/T05.htm" publishTime="10/24/2014 17:23:43" />
+    <file relUrl="assets/styles/icons/fonts/fontawesome-webfont.svg" publishTime="10/15/2014 16:08:56" />
+    <file relUrl="templates/images/flag_green.png" publishTime="10/24/2014 11:50:10" />
+    <file relUrl="templates/map-examples/basicXML.htm" publishTime="10/24/2014 11:49:11" />
+    <file relUrl="templates/map-examples/basic.htm" publishTime="10/24/2014 11:48:32" />
+    <file relUrl="templates/map-examples/parametersInMarkerSource.htm" publishTime="10/24/2014 11:49:01" />
+    <file relUrl="assets/scripts/lib/validation.js" publishTime="10/24/2014 12:17:09" />
+    <file relUrl="assets/scripts/lib/prettify.js" publishTime="10/24/2014 12:29:29" />
+    <file relUrl="assets/scripts/lib/gtlightbox.js" publishTime="01/09/2015 14:12:57" />
+    <file relUrl="bin/GTBase.dll" publishTime="01/07/2015 10:20:06" />
+    <file relUrl="assets/scripts/lib/isotope.js" publishTime="11/14/2014 12:00:16" />
+    <file relUrl="assets/styles/variables.css" publishTime="10/24/2014 18:28:29" />
+    <file relUrl="assets/scripts/lib/jquery-1.11.1.min.js" publishTime="10/13/2014 17:29:18" />
+    <file relUrl="templates/T12.htm" publishTime="01/09/2015 14:12:49" />
+    <file relUrl="assets/images/skyCorpScreenShot.jpg" publishTime="10/13/2014 17:29:20" />
+    <file relUrl="assets/images/smallSpinner.gif" publishTime="10/13/2014 17:29:20" />
+    <file relUrl="bin/GTBase.pdb" publishTime="01/07/2015 10:20:06" />
+    <file relUrl="assets/styles/icons/css/font-awesome.min.css" publishTime="11/11/2014 14:58:16" />
+    <file relUrl="assets/scripts/lib/form-customizer.js" publishTime="10/24/2014 11:14:27" />
+    <file relUrl="templates/map-examples/directions.htm" publishTime="10/24/2014 11:50:48" />
+    <file relUrl="templates/images/marker2.png" publishTime="10/24/2014 11:50:10" />
+    <file relUrl="templates/map-examples/xmlBasic.xml" publishTime="10/24/2014 11:46:59" />
+  </publishProfile>
+</publishData>

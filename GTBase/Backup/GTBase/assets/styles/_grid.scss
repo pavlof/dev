@@ -1,0 +1,61 @@
+/*G-INCEPTION by grouptree v1.0 31.07.2014*/
+/*INDEX
+    0. Global
+    1. All devices
+    2. Tablet
+    3. Mobile
+*/
+/*0. Global*/
+.gt-container { width: 95%; max-width: 1150px; margin: 0 auto; clear: left; overflow: visible; padding: 0; }
+.gt-container .gt-container { width: 100%; }
+.inner { margin: $global-margin; padding: $global-padding; }
+.gtbox-12, .gtbox-11, .gtbox-10, .gtbox-9, .gtbox-8, .gtbox-7, .gtbox-6, .gtbox-5, .gtbox-4, .gtbox-3, .gtbox-2, .gtbox-1 { float: left; }
+
+/*1. All devices*/
+.gtbox-12 { width: 100%; }
+.gtbox-11 { width: 91.666665%; }
+.gtbox-10 { width: 83.333332%; }
+.gtbox-9 { width: 75%; }
+.gtbox-8 { width: 66.666665%; }
+.gtbox-7 { width: 58.333332%; }
+.gtbox-6 { width: 50%; }
+.gtbox-5 { width: 41.666665%; }
+.gtbox-4 { width: 33.333332%; }
+.gtbox-3 { width: 25%; }
+.gtbox-2 { width: 16.666665%; }
+.gtbox-1 { width: 8.333332%; }
+
+/*2. Tablet*/
+@media (max-width: $tablet) {
+    .gtbox-12, .gtbox-11, .gtbox-10, .gtbox-9, .gtbox-8, .gtbox-7, .gtbox-6, .gtbox-5, .gtbox-4, .gtbox-3, .gtbox-2, .gtbox-1 { width: 100%; }
+    .gtbox-tablet-12 { width: 100%; }
+    .gtbox-tablet-11 { width: 91.666665%; }
+    .gtbox-tablet-10 { width: 83.333332%; }
+    .gtbox-tablet-9 { width: 75%; }
+    .gtbox-tablet-8 { width: 66.666665%; }
+    .gtbox-tablet-7 { width: 58.333332%; }
+    .gtbox-tablet-6 { width: 50%; }
+    .gtbox-tablet-5 { width: 41.666665%; }
+    .gtbox-tablet-4 { width: 33.333332%; }
+    .gtbox-tablet-3 { width: 25%; }
+    .gtbox-tablet-2 { width: 16.666665%; }
+    .gtbox-tablet-1 { width: 8.333332%; }
+}
+
+/*3. Mobile*/
+@media (max-width: $mobile) {
+    .gtbox-tablet-12, .gtbox-tablet-11, .gtbox-tablet-10, .gtbox-tablet-9, .gtbox-tablet-8, .gtbox-tablet-7, .gtbox-tablet-6, .gtbox-tablet-5, .gtbox-tablet-4, .gtbox-tablet-3, .gtbox-tablet-2, .gtbox-tablet-1 { width: 100%; }
+    .gtbox-mobile-12 { width: 100%; }
+    .gtbox-mobile-11 { width: 91.666665%; }
+    .gtbox-mobile-10 { width: 83.333332%; }
+    .gtbox-mobile-9 { width: 75%; }
+    .gtbox-mobile-8 { width: 66.666665%; }
+    .gtbox-mobile-7 { width: 58.333332%; }
+    .gtbox-mobile-6 { width: 50%; }
+    .gtbox-mobile-5 { width: 41.666665%; }
+    .gtbox-mobile-4 { width: 33.333332%; }
+    .gtbox-mobile-3 { width: 25%; }
+    .gtbox-mobile-2 { width: 16.666665%; }
+    .gtbox-mobile-1 { width: 8.333332%; }
+}
+

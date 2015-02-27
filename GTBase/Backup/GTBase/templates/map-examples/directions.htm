@@ -1,0 +1,131 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>Grouptree Google Maps v1.0</title>
+    
+    <!--jquery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!--google maps api and infobox -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?file=api&v=3&sensor=true"></script>
+    
+    <script type="text/javascript" src="/assets/scripts/lib/infobox.js"></script>
+    <!--Grouptree GoogleMaps -->
+    <script type="text/javascript" src="/assets/scripts/lib/gtmaps.js"></script>
+	
+	<script type="text/javascript">
+	    var map = null;
+	    $(document).ready(function () {
+	        map = new gtMaps({
+	            mapOptions: {
+	                mapType: 0 //0 = road, 1 = satellite, 2 = hybrid, 3 = terrain...
+	            },
+	            infobox: {
+	                boxStyles: {
+                        background: "url('../images/infobox.png') no-repeat -1px 0 transparent"
+                    }
+                },
+	            markers: {
+	                markerIco: "../images/marker.png",
+	                markerActiveIco: "../images/marker-active.png"
+	            },
+	            addressFinder: {
+	                enableDirections: true
+	            }
+	        });
+	    });
+	</script>
+
+	
+</head>
+<body>  
+<div class="header">
+    <h1>Grouptree Google Maps</h1>
+    
+</div>
+<div class="section">
+<pre class = 'prettyprint lang-js'>
+
+    $(document).ready(function () {
+	    gtMaps({
+	        mapOptions: {
+	            mapType: 0 //0 = road, 1 = satellite, 2 = hybrid, 3 = terrain...
+	        },
+	        infobox: {
+	            boxStyles: {
+                    background: "url('../images/infobox.png') no-repeat -1px 0 transparent"
+                }
+	        },
+	        markers: {
+	            markerIco: "../images/marker.png",
+	            markerActiveIco: "../images/marker-active.png"
+	        },
+	        addressFinder: {
+	            enableDirections: true
+	        }
+	    });
+    });
+    
+    </pre>
+        <!--MARKERS -->
+        <ul>
+            <li><a href="#" class="map-marker" data-lat="51.5119" data-long="-0.13492" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.50588" data-long="-0.14693" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.515667" data-long="-0.149231" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.51926" data-long="-0.16235" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.52222" data-long="-0.14295" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.51722" data-long="-0.13735" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.52003" data-long="-0.13818" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.52007" data-long="-0.14603" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.51813" data-long="-0.16361" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.5162" data-long="-0.15733" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.514984" data-long="-0.159734" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.51033" data-long="-0.15058" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.511268" data-long="-0.146349" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.51804" data-long="-0.13736" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.516632" data-long="-0.166145" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.51565" data-long="-0.16476" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.51621" data-long="-0.18887" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.50289" data-long="-0.218" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.50116" data-long="-0.18964" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.5024183" data-long="-0.1886451" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.49424" data-long="-0.201559" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.52733" data-long="-0.18151" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.51661" data-long="-0.12482" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.52491" data-long="-0.1251" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+
+
+            
+        </ul>
+
+        <p><b>Find address / plan route (select a marker):</b></p>
+        <p>
+            <input id="address" type="text" /> 
+            <input type="button" id="search" value="Search!" />
+
+            <!--not needed -->
+            <select id="travelmode" >
+			    <option selected="selected" value="DRIVING">Driving (default)</option>
+			    <option value="BICYCLING">Bicycling</option>
+			    <option value="TRANSIT">Transit</option>
+                <option value="WALKING">Walking</option>
+		    </select>
+            <!--/not needed -->
+        </p>
+
+        <!--MAP WRAPPER -->
+        <div id='map-canvas' style="height: 500px;"></div>
+
+        <p><br /><b>Direction details:<b><br /></p>
+        <!--DIRECTIONS DETAILS -->
+        <div id="directions-panel"></div>
+
+        <div class="clear"></div>
+
+
+    </div>
+
+
+
+</body>  
+</html>  

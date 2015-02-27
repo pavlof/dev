@@ -1,0 +1,53 @@
+/*bg colors*/
+.b1 { background: $primary-color; }
+.b2 { background: $active-color; }
+.b3 { background: $box-color; }
+/*font colors*/
+.c1 { color: $primary-color; }
+.c2 { color: $box-color; }
+/*float*/
+.fl { float: left !important; }
+.fr { float: right !important; }
+.clearfix { display: block; height: 1px; zoom: 1; width: 100%; clear: both; }
+/*text align*/
+.tl { text-align: left !important; }
+.tr { text-align: right !important; }
+.tc { text-align: center !important; }
+	/*vertical align*/
+.vertical-align { height: 500px; line-height: 500px; text-align: center; }
+.vertical-align .va-wrapper { display: inline-block; *display: inline; *zoom: 1; line-height: normal; vertical-align: middle; }
+/*margins*/
+.m0 { margin: 0 !important; }
+.mt0 { margin-top: 0 !important; }
+.mr0 { margin-right: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+.ml0 { margin-left: 0 !important; }
+.m10 { margin: 10px !important; }
+.mt10 { margin-top: 10px !important; }
+.mr10 { margin-right: 10px !important; }
+.mb10 { margin-bottom: 10px !important; }
+.ml10 { margin-left: 10px !important; }
+.mb40 { margin-bottom: 40px !important; }
+/*paddings*/
+.p0 { padding: 0 !important; }
+.pt0 { padding-top: 0 !important; }
+.pr0 { padding-right: 0 !important; }
+.pb0 { padding-bottom: 0 !important; }
+.pl0 { padding-left: 0 !important; }
+.p10 { padding: 10px !important; }
+.p20 { padding: 20px !important; }
+/*visibility*/
+.hidden { display: none; }
+.visible { display: block; }
+/*effects*/
+.shadow { -webkit-box-shadow: 10px 10px 10px 10px #000; -moz-box-shadow: 10px 10px 10px 10px #000; box-shadow: 10px 10px 10px 10px #000; behavior: url(/assets/pie/pie.htc); }
+.radius { -webkit-border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; behavior: url(/assets/pie/pie.htc); }
+/*text*/
+.ellipsis { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -ms-text-overflow: ellipsis; display: inline-block; max-width: 100%; }
+/*position*/
+.relative { position: relative; }
+.absolute { position: absolute; }
+/*width*/
+.auto-width { width: auto !important; }
+
+

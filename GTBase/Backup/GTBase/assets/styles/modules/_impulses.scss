@@ -1,0 +1,9 @@
+/********** START IMPULSES **********/
+.impulses-container {}
+.inner .impulses-container { margin: 0 ; margin-left:-$global-margin; margin-right: -$global-margin; }
+/*global impulse*/
+.impulse .impulse-image { width: 100%; }
+.impulse-entry { overflow: hidden; margin-bottom: $global-margin; }
+.impulse-entry .copy-wrapper { overflow: hidden; }
+.impulse-entry .copy-wrapper p { margin: 0; }
+/********** END IMPULSES **********/

@@ -1,0 +1,27 @@
+/********** START HACKS **********/
+
+
+/********** CHROME AND SAFARI **********/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+}
+
+/********** FIREFOX **********/
+@-moz-document url-prefix() { 
+
+}
+
+/********** IE9 **********/
+@media screen and (min-width:0\0) {
+
+} 
+
+/********** IE8 **********/
+@media \0screen {  
+.gt-container { width: 1140px; }
+}
+
+/********** IE7 **********/
+ .gt-container { *width: 1140px; }
+
+/********** END HACKS **********/

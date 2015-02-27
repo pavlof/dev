@@ -1,0 +1,16 @@
+/*colors*/
+/*margins and paddings*/
+/*border*/
+/*fonts*/
+.global-font {
+  font-family: "Arial";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #333; }
+
+.headers {
+  color: #104b7d;
+  margin: 0 0 20px 0;
+  font-weight: 400; }
+

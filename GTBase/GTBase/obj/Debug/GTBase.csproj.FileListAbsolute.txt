@@ -1,0 +1,10 @@
+D:\Source\GTBase\GTBase\bin\GTBase.dll
+D:\Source\GTBase\GTBase\bin\GTBase.pdb
+D:\Source\GTBase\GTBase\obj\Debug\GTBase.dll
+D:\Source\GTBase\GTBase\obj\Debug\GTBase.pdb
+D:\Source\GTBase\GTBase\obj\Debug\GTBase.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Proyectos\GTBase\GTBase\bin\GTBase.dll
+C:\Users\Pablo\Proyectos\GTBase\GTBase\bin\GTBase.pdb
+C:\Users\Pablo\Proyectos\GTBase\GTBase\obj\Debug\GTBase.csprojResolveAssemblyReference.cache
+C:\Users\Pablo\Proyectos\GTBase\GTBase\obj\Debug\GTBase.dll
+C:\Users\Pablo\Proyectos\GTBase\GTBase\obj\Debug\GTBase.pdb

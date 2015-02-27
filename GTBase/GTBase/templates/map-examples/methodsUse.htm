@@ -1,0 +1,123 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>Grouptree Google Maps v1.0</title>
+    
+    <!--jquery -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <!--google maps api and infobox -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?file=api&v=3&sensor=true"></script>
+    
+    <script type="text/javascript" src="/assets/scripts/lib/infobox.js"></script>
+    <!--Grouptree GoogleMaps -->
+    <script type="text/javascript" src="/assets/scripts/lib/gtmaps.js"></script>
+	
+	<script type="text/javascript">
+
+	    var map = null;
+
+        $(document).ready(function () {
+            map = new gtMaps({
+                mapOptions: {
+                    mapType: 0
+                },
+                infobox: {
+                    boxStyles: {
+                        background: "url('../images/infobox.png') no-repeat -1px 0 transparent"
+                    }
+                },
+                markers: {
+                    markerIco: "../images/marker.png",
+                    markerActiveIco: "../images/marker-active.png"
+                }
+            });
+        });
+
+
+        function reset() {
+            map.initialise();
+        }
+
+        function fitMarkers() {
+            map.fitMarkers();
+        }
+
+        function changeZoom(zoom) {
+            map.changeZoom(zoom);
+        }
+
+	</script>
+	
+	<style>
+	    /*only the styles declaring the size of the map are needed*/
+        #map-canvas { width: 500px; height: 500px;  float: left; }
+
+        .infoBox a { display: block; }
+	</style>
+	
+</head>
+<body onload="prettyPrint();">  
+    <div class="header">
+    <h1>Grouptree Google Maps</h1>
+    </div>
+
+    <div class="section">
+    <pre class = 'prettyprint lang-js'>
+
+    var map = null;
+    $(document).ready(function () {
+        map = new gtMaps({
+            mapOptions: {
+                mapType: 2
+            },
+            infobox: {
+                boxStyles: {
+                    background: "url('../images/infobox.png') no-repeat -1px 0 transparent"
+                }
+            },
+            markers: {
+                markerIco: "../images/marker.png",
+                markerActiveIco: "../images/marker-active.png"
+            }
+        });
+    });
+
+    function reset() {
+        map.initialise();
+    }
+
+    function fitMarkers() {
+        map.fitMarkers();
+    }
+
+    function changeZoom(zoom) {
+        map.changeZoom(zoom);
+    }
+    </pre>
+
+    <p>Notice that this time the map should be assigned to an object as a global variable</p>
+    <p>map = new gtMaps()</p>
+
+        <!--MARKERS -->
+        <ul>
+            <li><a href="#" class="map-marker" data-lat="51.539022" data-long="-0.145224" data-infobox="Hello Im the marker1" data-title="Marker1">Marker 1</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.538" data-long="-0.146" data-infobox="Hello Im the marker2" data-title="Marker2">Marker 2</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.540" data-long="-0.144" data-infobox="Hello Im the marker3" data-title="Marker3">Marker 3</a></li>
+            <li><a href="#" class="map-marker" data-lat="51.550" data-long="-0.142" data-title="Marker4">Marker 4</a></li>
+        </ul>
+
+        <!--MAP WRAPPER -->
+        <div id='map-canvas'></div>
+
+
+        <p><a href="javascript: reset()">Reset</a></p>
+        <p><a href="javascript: changeZoom(13)">Change Zoom</a></p>
+        <p><a href="javascript: fitMarkers()">Fit markers</a></p>
+
+       
+    </div>
+
+
+</body>  
+</html>  

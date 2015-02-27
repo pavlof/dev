@@ -1,0 +1,58 @@
+﻿/********** START FORMS **********/
+.input-default {  @extend .global-font;  max-width: 245px; width: 100%; height: 36px; padding: 0; border: $global-border; padding-left: 5px; margin-right: 10px; }
+
+input[type="checkbox"] { }
+input[type="radio"] { }
+input[type="text"],
+input[type="password"],
+input[type="tel"],
+input[type="url"],
+input[type="email"] { @extend .input-default;  }
+select { @extend .input-default; }
+textarea { @extend .input-default; height: 82px; padding: 5px; resize: none; max-width: 500px; }
+input[type="submit"],
+input[type="button"], 
+.btn { display: inline-block; color: White;  border: none; cursor: pointer; margin-right: 10px; height: 36px; font-size: 16px; line-height: 36px; background: $primary-color; padding: 0 10px; }
+input[type="submit"]:disabled,
+input[type="button"]:disabled, 
+.btn.disabled { background-color: $box-color !important; color: #999999 !important; cursor: default; text-decoration: none; }
+input[type="submit"]:hover, 
+input[type="submit"]:focus, 
+input[type="submit"]:active,
+input[type="button"]:hover, 
+input[type="button"]:focus, 
+input[type="button"]:active,
+.btn:hover, 
+.btn:focus, 
+.btn.active { text-decoration: none; background: $active-color; color: $light-color;  @extend .smooth-transition  }
+
+.fake-input { color: $primary-color; cursor: pointer; display: inline-block; position: static; text-decoration: none; width:18px;   color: $primary-color !important;  }
+a.fake-input {text-decoration: none; }
+.fake-input.checkbox:before { content: "\f096";}
+.fake-input.checkbox.active:before { content: "\f046";}
+.fake-input.radio:before { content: "\f10c"; }
+.fake-input.radio.active:before { content: "\f192"; }
+.fake-input.checkbox.active { content: "\f046"; }
+.fake-input.radio { content: "\f192"; }
+.fake-input input, .fake-select select { display: none; }
+.fake-input:hover, .fake-input:focus { text-decoration: none; }
+
+.fake-select { display: inline-block; *display: inline; *zoom: 1; height: 36px; overflow: hidden; position: relative; text-decoration: none; vertical-align: middle; width: 100%; border: 1px solid #e6e6e6; cursor: pointer; max-width: 245px; }
+.fake-select-arrow:before { content: "\f107"; }
+.fake-select select { display: none; }
+.fake-select-arrow {  margin-right: 10px; margin-top: -7px; position: absolute; right: 0; top: 50%; width: 10px; display: inline-block; font: normal normal normal 14px/1 FontAwesome; font-size: inherit; text-rendering: auto; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: $active-color; *zoom: 1; *display: inline; }
+.fake-select-active-opt { display: block;  line-height: 34px; outline: medium none; padding: 0 30px 0 10px; text-decoration: none; }
+.fake-select-options-cotainer { display: none; margin: 0; padding: 0; position: absolute; top: 0; z-index: 1; }
+.fake-select-options-cotainer ul { border: 1px solid #e6e6e6; list-style: none outside none; margin: 0; overflow-x: hidden; overflow-y: auto; padding: 0; position: relative; }
+.fake-select-options-cotainer li { background: #fff; display: block; margin: 0; padding: 0; border-top: 1px solid transparent;  border-bottom: 1px solid transparent; }
+.fake-select-options-cotainer li a { display: block; line-height: 20px; outline: medium none; padding: 5px 30px 5px 10px; text-decoration: none; color: #000; }
+.fake-select-options-cotainer li a:hover {background: $active-color; color: #fff; }
+
+.form-wrapper {}
+.form-row {}
+.form-row label { display: inline-block; width: 245px; }
+
+fieldset { display: inline-block;}
+.error { background: none repeat scroll 0 0 #ffb4b4!important; border: 1px solid red !important;}
+.fake-input.error { border: 0 !important; background: none !important; color: Red !important;}
+/********** END FORMS **********/

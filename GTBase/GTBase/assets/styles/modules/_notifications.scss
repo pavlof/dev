@@ -1,0 +1,16 @@
+.form-notification { position: relative; border: none !important; margin-bottom: $global-margin; }
+.form-notification .icon { display: block; height: 100%; width: 60px; line-height: 60px; text-align: center; position: absolute; top: 0; left: 0; color: #FFFFFF; font-size: 20px; }
+.form-notification .icon .fa { line-height: 60px;  font-size: 20px; }
+.form-notification .copy { padding: 20px 20px 20px 80px; }
+.form-notification .copy p { margin: 0; }
+
+.close-notification { display: block; height: 100%; width: 60px; line-height: 60px; text-align: center; position: absolute; top: 0; right: 0; color: inherit; }
+.close-notification .fa { line-height: 60px; color: inherit; }
+.form-notification.success{ background: #e7f7c2; color: #5f9a13; border-color: #5f9a13}
+.form-notification.success .icon { background: #5f9a13; }
+.form-notification.error { background: #ffe2e2; color: #c71b1b; border-color: #c71b1b }
+.form-notification.error .icon  { background: #c71b1b; }
+.form-notification.warning { background: #f9f8d0; color: #d3a400; border-color: #d3a400 }
+.form-notification.warning .icon  { background: #d3a400;  }
+.form-notification.info { background: #e5eef5; color: #2d79c1; border-color: #2d79c1 }
+.form-notification.info .icon  { background: #2d79c1; }

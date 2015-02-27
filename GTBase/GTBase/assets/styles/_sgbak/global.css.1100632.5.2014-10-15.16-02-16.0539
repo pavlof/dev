@@ -1,0 +1,68 @@
+/********** START GLOBAL **********/
+body { margin: 0; }
+
+a { text-decoration: none; cursor: pointer; }
+
+a:hover { text-decoration: none; }
+strong { color: #063353; }
+ol, ul { margin: 0; margin-left: 22px; padding: 0; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.b1 { background: #104B7D; }
+.b2 { background: #999999; }
+.b3 { background: #EEEEEE; }
+.b4 { background: #444; }
+.b5 { background: #555; }
+.b6 { background: #eee; }
+
+.c1 { color: #104B7D; }
+.c2 { color: #999999; }
+.c3 { color: #EEEEEE; }
+
+.underline { text-decoration: underline; }
+
+.fl { float: left !important; }
+.fr { float: right !important; }
+
+.tl { text-align: left !important; }
+.tr { text-align: right !important; }
+.tc { text-align: center !important; }
+
+.m0 { margin: 0 !important; }
+.mt0 { margin-top: 0 !important; }
+.mr0 { margin-right: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+.ml0 { margin-left: 0 !important; }
+
+.p0 { padding: 0 !important; }
+.pt0 { padding-top: 0 !important; }
+.pr0 { padding-right: 0 !important; }
+.pb0 { padding-bottom: 0 !important; }
+.pl0 { padding-left: 0 !important; }
+
+.hidden { display: none; }
+.visible { display: block; }
+
+.shadow { -webkit-box-shadow: 10px 10px 10px 10px #000; -moz-box-shadow: 10px 10px 10px 10px #000; box-shadow: 10px 10px 10px 10px #000; behavior: url(/assets/pie/pie.htc); }
+.radius { -webkit-border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px; behavior: url(/assets/pie/pie.htc); }
+
+.ellipsis { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; -o-text-overflow: ellipsis; -ms-text-overflow: ellipsis; display: inline-block; max-width: 100%; }
+.clearfix { display: block; _height: 1px; zoom: 1; }
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+.relative { position: relative; }
+
+
+
+
+
+/************SPINNER*************/
+.spinner-blue { background: url('/assets/images/smallSpinner.gif') repeat 0 0 transparent; background-repeat: no-repeat; min-height: 31px; min-width: 31px; margin: 5px 20px; }
+.spinner-blue p { line-height: 31px; padding-left: 40px; }
+/************SPINNER END*************/
+
+
+/********** END GLOBAL ****************/

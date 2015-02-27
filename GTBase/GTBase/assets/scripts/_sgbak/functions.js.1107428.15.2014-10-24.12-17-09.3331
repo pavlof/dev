@@ -1,0 +1,96 @@
+﻿function gtCarousel() {
+    $('.js-slider').each(function () {
+        var thisSlider = $(this);
+        var sliderContainer = thisSlider.closest(".slider-container");
+        thisSlider.iosSlider({
+            desktopClickDrag: false,
+            snapToChildren: true,
+            navNextSelector: sliderContainer.find('.js-slide-button-prev'),
+            navPrevSelector: sliderContainer.find('.js-slide-button-next'),
+            navSlideSelector: sliderContainer.find('.js-slider-selector'),
+            onSlideChange: slideChange,
+            infiniteSlider: true,
+            startAtSlide: '1'
+        });
+        function slideChange(args) {
+            sliderContainer.find('.js-slider-selector').removeClass('active');
+            sliderContainer.find('.js-slider-selector:eq(' + (args.currentSlideNumber - 1) + ')').addClass('active');
+        }
+    });
+}
+
+function gtAccordions() {
+    $('.js-accordion-heading').click(function () {
+        var accHeading = $(this);
+        var thisAcc = accHeading.closest(".js-accordion");
+        if (!accHeading.hasClass('active')) {
+            accHeading.addClass('active');
+            thisAcc.find('.js-accordion-content').slideDown();
+        } else {
+            accHeading.removeClass('active');
+            thisAcc.find('.js-accordion-content').slideUp();
+        }
+    });
+}
+
+function closeOverlay() {
+    $(".js-overlay").fadeOut();
+    $(".js-overlay-bg, .js-overlay-ajax-bg").fadeOut();
+}
+
+function overlayAjaxTrigger() {
+    $(".js-open-overlay-ajax-trigger").click(function () {
+        $("body").css("cursor", "progress");
+        $.ajax({
+            type: "GET",
+            url: "/templates/T04b.htm",
+            success: function (response) {
+                $("body").append(response);
+                $("body").css("cursor", "default");
+            }
+        });
+    });
+    $("body").on("click", ".js-close-overlay-trigger", function () {
+        closeOverlay();
+    });
+}
+//NON AJAX
+function openOverlay(trigger) {
+    var overlayselector = trigger.attr("data-overlay-selector");
+    $(overlayselector).fadeIn();
+    $(".js-overlay-bg").fadeIn();
+}
+function bindOverlayEvents() {
+    $("body").on("click", ".js-open-overlay-trigger", function () {
+        var trigger = $(this);
+        openOverlay(trigger);
+    });
+    $("body").on("click", ".js-close-overlay-trigger", function () {
+        var trigger = $(this);
+        closeOverlay(trigger);
+    });
+}
+
+
+//NON AJAX END
+function styleForm() {
+    $("body").customize();
+}
+
+function validateForm() {
+ $('.js-form-submit').click(function () {
+        $(".js-form-wrapper").validate();
+    });
+}
+
+//TABS
+function tabsClick() {
+    $(".tabs-menu a").click(function (event) {
+        event.preventDefault();
+        $(this).parent().addClass("active");
+        $(this).parent().siblings().removeClass("active");
+        var tab = $(this).attr("href");
+        $(".tab-content").not(tab).css("display", "none").removeClass("active");
+        $(tab).fadeIn().addClass("active");
+    });
+}

@@ -1,0 +1,155 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>GroupTree Global</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+    <link href="/assets/styles/main.css" rel="stylesheet" type="text/css" />
+    <script src="/assets/scripts/lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="/assets/scripts/lib/jquery.iosslider.min.js" type="text/javascript"></script>
+    <script src="/assets/scripts/functions.js" type="text/javascript"></script>
+    <script src="/assets/scripts/main.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="gt-container">
+        <div class="gtbox-12 ">
+             <h2 id="responsive-carousel" class="title">Accordions</h2>
+            <!--accordions wrapper -->
+            <div class="accordions-wrapper">
+                <!--accordions item -->
+                <div class="accordion js-accordion">
+                    <!--accordions header -->
+                    <div class="accordion-heading js-accordion-heading">
+                        I would like an Alfa Aesae MSDS, chemicals, labware <span class="accordion-indicator fa"></span>
+                    </div>
+                    <!-- / accordions header -->
+                    <!--accordions content -->
+                    <div class="accordion-content js-accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget commodo nulla. Sed nec magna pellentesque, aliquam orci eu, cursus augue. Morbi eget hendrerit nunc. Aliquam interdum non sem a scelerisque. In convallis est augue, eget dictum tortor posuere et. Vivamus neque dolor, elementum sed porttitor ac, aliquet sit amet lectus. Nullam libero arcu, auctor ut neque id, varius tempus arcu. Mauris rhoncus eros egestas facilisis convallis. Phasellus elementum elit eget ligula posuere malesuada</p>
+                        </div>
+                    </div>
+                    <!-- / accordions content -->
+                </div>
+                <!-- / accordions item -->
+                <!--accordions item -->
+                <div class="accordion js-accordion">
+                    <!--accordions header -->
+                    <div class="accordion-heading js-accordion-heading">
+                        I would like an Alfa Aesae MSDS, chemicals, labware <span class="accordion-indicator fa"></span>
+                    </div>
+                    <!-- / accordions header -->
+                    <!--accordions content -->
+                    <div class="accordion-content js-accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget commodo nulla. Sed nec magna pellentesque, aliquam orci eu, cursus augue. Morbi eget hendrerit nunc. Aliquam interdum non sem a scelerisque. In convallis est augue, eget dictum tortor posuere et. Vivamus neque dolor, elementum sed porttitor ac, aliquet sit amet lectus. Nullam libero arcu, auctor ut neque id, varius tempus arcu. Mauris rhoncus eros egestas facilisis convallis. Phasellus elementum elit eget ligula posuere malesuada</p>
+                        </div>
+                    </div>
+                    <!-- / accordions content -->
+                </div>
+                <!-- / accordions item -->
+                <!--accordions item -->
+                <div class="accordion js-accordion">
+                    <!--accordions header -->
+                    <div class="accordion-heading js-accordion-heading">
+                        I would like an Alfa Aesae MSDS, chemicals, labware <span class="accordion-indicator fa"></span>
+                    </div>
+                    <!-- / accordions header -->
+                    <!--accordions content -->
+                    <div class="accordion-content js-accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget commodo nulla. Sed nec magna pellentesque, aliquam orci eu, cursus augue. Morbi eget hendrerit nunc. Aliquam interdum non sem a scelerisque. In convallis est augue, eget dictum tortor posuere et. Vivamus neque dolor, elementum sed porttitor ac, aliquet sit amet lectus. Nullam libero arcu, auctor ut neque id, varius tempus arcu. Mauris rhoncus eros egestas facilisis convallis. Phasellus elementum elit eget ligula posuere malesuada</p>
+                        </div>
+                    </div>
+                    <!-- / accordions content -->
+                </div>
+                <!-- / accordions item -->
+                <!--accordions item -->
+                <div class="accordion js-accordion">
+                    <!--accordions header -->
+                    <div class="accordion-heading js-accordion-heading">
+                        I would like an Alfa Aesae MSDS, chemicals, labware <span class="accordion-indicator fa"></span>
+                    </div>
+                    <!-- / accordions header -->
+                    <!--accordions content -->
+                    <div class="accordion-content js-accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget commodo nulla. Sed nec magna pellentesque, aliquam orci eu, cursus augue. Morbi eget hendrerit nunc. Aliquam interdum non sem a scelerisque. In convallis est augue, eget dictum tortor posuere et. Vivamus neque dolor, elementum sed porttitor ac, aliquet sit amet lectus. Nullam libero arcu, auctor ut neque id, varius tempus arcu. Mauris rhoncus eros egestas facilisis convallis. Phasellus elementum elit eget ligula posuere malesuada</p>
+                        </div>
+                    </div>
+                    <!-- / accordions content -->
+                </div>
+                <!-- / accordions item -->
+            </div>
+            <!-- / accordions wrapper -->
+            <!--accordions wrapper -->
+            <div class="accordions-wrapper">
+                <!--accordions item -->
+                <div class="accordion js-accordion">
+                    <!--accordions header -->
+                    <div class="accordion-heading js-accordion-heading">
+                        I would like an Alfa Aesae MSDS, chemicals, labware <span class="accordion-indicator fa"></span>
+                    </div>
+                    <!-- / accordions header -->
+                    <!--accordions content -->
+                    <div class="accordion-content js-accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget commodo nulla. Sed nec magna pellentesque, aliquam orci eu, cursus augue. Morbi eget hendrerit nunc. Aliquam interdum non sem a scelerisque. In convallis est augue, eget dictum tortor posuere et. Vivamus neque dolor, elementum sed porttitor ac, aliquet sit amet lectus. Nullam libero arcu, auctor ut neque id, varius tempus arcu. Mauris rhoncus eros egestas facilisis convallis. Phasellus elementum elit eget ligula posuere malesuada</p>
+                        </div>
+                    </div>
+                    <!-- / accordions content -->
+                </div>
+                <!-- / accordions item -->
+                <!--accordions item -->
+                <div class="accordion js-accordion">
+                    <!--accordions header -->
+                    <div class="accordion-heading js-accordion-heading">
+                        I would like an Alfa Aesae MSDS, chemicals, labware <span class="accordion-indicator fa"></span>
+                    </div>
+                    <!-- / accordions header -->
+                    <!--accordions content -->
+                    <div class="accordion-content js-accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget commodo nulla. Sed nec magna pellentesque, aliquam orci eu, cursus augue. Morbi eget hendrerit nunc. Aliquam interdum non sem a scelerisque. In convallis est augue, eget dictum tortor posuere et. Vivamus neque dolor, elementum sed porttitor ac, aliquet sit amet lectus. Nullam libero arcu, auctor ut neque id, varius tempus arcu. Mauris rhoncus eros egestas facilisis convallis. Phasellus elementum elit eget ligula posuere malesuada</p>
+                        </div>
+                    </div>
+                    <!-- / accordions content -->
+                </div>
+                <!-- / accordions item -->
+                <!--accordions item -->
+                <div class="accordion js-accordion">
+                    <!--accordions header -->
+                    <div class="accordion-heading js-accordion-heading">
+                        I would like an Alfa Aesae MSDS, chemicals, labware <span class="accordion-indicator fa"></span>
+                    </div>
+                    <!-- / accordions header -->
+                    <!--accordions content -->
+                    <div class="accordion-content js-accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget commodo nulla. Sed nec magna pellentesque, aliquam orci eu, cursus augue. Morbi eget hendrerit nunc. Aliquam interdum non sem a scelerisque. In convallis est augue, eget dictum tortor posuere et. Vivamus neque dolor, elementum sed porttitor ac, aliquet sit amet lectus. Nullam libero arcu, auctor ut neque id, varius tempus arcu. Mauris rhoncus eros egestas facilisis convallis. Phasellus elementum elit eget ligula posuere malesuada</p>
+                        </div>
+                    </div>
+                    <!-- / accordions content -->
+                </div>
+                <!-- / accordions item -->
+                <!--accordions item -->
+                <div class="accordion js-accordion">
+                    <!--accordions header -->
+                    <div class="accordion-heading js-accordion-heading">
+                        I would like an Alfa Aesae MSDS, chemicals, labware <span class="accordion-indicator fa"></span>
+                    </div>
+                    <!-- / accordions header -->
+                    <!--accordions content -->
+                    <div class="accordion-content js-accordion-content">
+                        <div class="accordion-content-inner">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget commodo nulla. Sed nec magna pellentesque, aliquam orci eu, cursus augue. Morbi eget hendrerit nunc. Aliquam interdum non sem a scelerisque. In convallis est augue, eget dictum tortor posuere et. Vivamus neque dolor, elementum sed porttitor ac, aliquet sit amet lectus. Nullam libero arcu, auctor ut neque id, varius tempus arcu. Mauris rhoncus eros egestas facilisis convallis. Phasellus elementum elit eget ligula posuere malesuada</p>
+                        </div>
+                    </div>
+                    <!-- / accordions content -->
+                </div>
+                <!-- / accordions item -->
+            </div>
+            <!-- / accordions wrapper -->
+        </div>
+    </div>
+</body>
+</html>

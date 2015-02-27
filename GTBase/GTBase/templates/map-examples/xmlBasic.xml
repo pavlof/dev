@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<markers>
+  <marker data-lat="51.539022" data-long="-0.145224" data-infobox="Hello Im the marker1" data-title="Marker1" data-heading="140"/>
+  <marker data-lat="51.538" data-long="-0.146" data-infobox="Hello Im the marker2" data-title="Marker2"/>
+  <marker data-lat="51.540" data-long="-0.144" data-infobox="Hello Im the marker3" data-title="Marker3"/>
+  <marker data-lat="51.550" data-long="-0.142" data-infobox="Hello Im the marker4" data-title="Marker4" />
+  <marker data-lat="51.5119" data-long="-0.13492" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.50588" data-long="-0.14693" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.515667" data-long="-0.149231" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.51926" data-long="-0.16235" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.52222" data-long="-0.14295" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.51722" data-long="-0.13735" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.52003" data-long="-0.13818" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.52007" data-long="-0.14603" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.51813" data-long="-0.16361" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.5162" data-long="-0.15733" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.514984" data-long="-0.159734" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.51033" data-long="-0.15058" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.511268" data-long="-0.146349" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.51804" data-long="-0.13736" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.516632" data-long="-0.166145" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.51565" data-long="-0.16476" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.51621" data-long="-0.18887" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.50289" data-long="-0.218" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.50116" data-long="-0.18964" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.5024183" data-long="-0.1886451" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.49424" data-long="-0.201559" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.52733" data-long="-0.18151" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.51661" data-long="-0.12482" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.52491" data-long="-0.1251" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.453043" data-long="-0.19324" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.45354" data-long="-0.19327" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.50204" data-long="-0.0872" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.46265" data-long="-0.30117" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.370106" data-long="-0.101495" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.3751" data-long="-0.09881" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.377412" data-long="-0.099412" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.37209" data-long="-0.09456" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.37721" data-long="-0.09523" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.402564" data-long="0.017877" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.40951" data-long="-0.30143" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.3343" data-long="-0.26729" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.33422" data-long="-0.26749" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.40797" data-long="-0.30465" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.78928" data-long="1.15086" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="52.054166" data-long="1.146504" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.53691" data-long="0.71103" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.88678" data-long="0.90299" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.93929" data-long="1.171602" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="52.62387" data-long="1.29167" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="50.72506" data-long="-2.93556" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.34678" data-long="-2.97781" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.455986" data-long="-2.59225" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="51.45696" data-long="-2.59431" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="50.90132" data-long="-1.40229" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="50.80026" data-long="-1.08721" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+  <marker data-lat="50.80074" data-long="-1.09255" data-infobox="Hello Im the marker1" data-title="Marker1"/>
+
+  
+</markers>

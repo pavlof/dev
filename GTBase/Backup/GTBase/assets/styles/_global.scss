@@ -1,0 +1,12 @@
+body { margin: 0; font-family: $global-font-family;}
+
+strong {}
+ol, ul { margin: 0 0 $global-margin*2  $global-margin*2; padding: 0; }
+li { margin-bottom: $global-margin/2;  }
+.no-list { list-style: none; margin-left: 0; }
+img { max-width: 100%; }
+table { border-collapse: collapse; border-spacing: 0; }
+pre { margin-bottom: 20px; }
+
+.spinner { background: url('/assets/images/smallSpinner.gif') repeat 0 0 transparent; background-repeat: no-repeat; height: 31px; width: 31px; display: inline-block; }
+
