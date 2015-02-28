@@ -1,0 +1,15 @@
+﻿.box-wrapper { background: red; padding: 10px; }
+
+
+.box {
+    width: 25%;
+    height: 200px;
+    background: blue;
+    margin: 10px;
+    float: left;
+}
+
+
+.clearfix {
+    height: 1px; width: 100%; clear: both; display: block;
+}

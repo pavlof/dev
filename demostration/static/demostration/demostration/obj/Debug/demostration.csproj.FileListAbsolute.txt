@@ -1,0 +1,6 @@
+C:\Source\dev\demostration\static\demostration\demostration\bin\demostration.dll.config
+C:\Source\dev\demostration\static\demostration\demostration\bin\demostration.dll
+C:\Source\dev\demostration\static\demostration\demostration\bin\demostration.pdb
+C:\Source\dev\demostration\static\demostration\demostration\obj\Debug\demostration.dll
+C:\Source\dev\demostration\static\demostration\demostration\obj\Debug\demostration.pdb
+C:\Source\dev\demostration\static\demostration\demostration\obj\Debug\demostration.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+/********** START FONT **********/
+body { font-family: arial; font-size: 16px; line-height: 20px; font-weight: 400; color: $font-color; }
+h1, .h1 { font-size: 52px; line-height: 56px; @extend .headers }
+h2, .h2 { font-size: 44px; line-height: 48px; @extend .headers  }
+h3, .h3 { font-size: 36px; line-height: 40px; @extend .headers  }
+h4, .h4 { font-size: 32px; line-height: 36px; @extend .headers  }
+h5, .h5 { font-size: 24px; line-height: 28px; @extend .headers  }
+h6, .h6 { font-size: 20px; line-height: 24px; @extend .headers  }
+p, .p { font-size: 16px; line-height: 20px; font-weight: 400;  margin: 0 0 $global-margin*2 0; }
+small { font-size: 0.7em; line-height: 1em; }
+.title { border-bottom: $global-border; padding-bottom: $global-padding; }
+a { color: $primary-color; text-decoration: none; }
+a:hover, a:focus, a.active { text-decoration: underline; color: $active-color;   @extend .smooth-transition  }
+/********** END FONT **********/

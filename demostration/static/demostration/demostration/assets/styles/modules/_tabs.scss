@@ -1,0 +1,10 @@
+/*******TABS START******/
+ul.tabs-menu { margin-left: 0;  padding-left:0; }
+.tabs-menu li {padding: 5px 20px; display: inline-block; /*margin-right: 10px;*/ margin-bottom: -1px; background-color: $box-color; border-top: $global-border; border-right: $global-border; border-left: $global-border; }
+.tabs-menu li.active { position: relative; background-color: #fff; border-bottom: 1px solid #fff; z-index: 1; }
+.tabs-menu li a { display: block; }
+.tabs-menu .active a { color: $primary-color; }
+.tab { border: $global-border; background-color: #fff; width: auto; clear: both; }
+.tab-content { display: none; }
+.tab-content.active { display: block; }
+/*******TABS END******/

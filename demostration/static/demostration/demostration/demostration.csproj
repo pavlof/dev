@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A481FF7C-7565-47FA-BAE0-1BB5EA5C00DC}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>demostration</RootNamespace>
+    <AssemblyName>demostration</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\scripts\lib\jqu500.tmp" />
+    <Content Include="assets\scripts\lib\_sgbak\validation.js.1101399.1.2014-10-24.12-17-09.2601" />
+    <Content Include="assets\scripts\_sgbak\functions.js.1107428.15.2014-10-24.12-17-09.3331" />
+    <Content Include="assets\scripts\_sgbak\main.js.1112655.9.2014-11-14.14-57-37.8225" />
+    <Content Include="assets\styles\icons\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\styles\icons\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\styles\icons\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\styles\icons\fonts\FontAwesome.otf" />
+    <Content Include="assets\styles\main.css" />
+    <Content Include="assets\styles\main.scss" />
+    <Content Include="assets\styles\modules\_accordion.scss" />
+    <Content Include="assets\styles\modules\_forms.scss" />
+    <Content Include="assets\styles\modules\_impulses.scss" />
+    <Content Include="assets\styles\modules\_lightbox.scss" />
+    <Content Include="assets\styles\modules\_navs.scss" />
+    <Content Include="assets\styles\modules\_notifications.scss" />
+    <Content Include="assets\styles\modules\_sgbak\_dropdownNav.scss.1112444.2.2014-11-04.11-15-32.2228" />
+    <Content Include="assets\styles\modules\_sgbak\_dropdownNav.scss.1112444.2.2014-11-06.16-55-21.0524" />
+    <Content Include="assets\styles\modules\_sgbak\_slider.scss.1112445.2.2014-11-06.16-55-21.0654" />
+    <Content Include="assets\styles\modules\_shareTools.scss" />
+    <Content Include="assets\styles\modules\_slider.scss" />
+    <Content Include="assets\styles\modules\_tabs.scss" />
+    <Content Include="assets\styles\prettyfy.scss" />
+    <Content Include="assets\styles\_animations.scss" />
+    <Content Include="assets\styles\_font.scss" />
+    <Content Include="assets\styles\_global.scss" />
+    <Content Include="assets\styles\_grid.scss" />
+    <Content Include="assets\styles\_hacks.scss" />
+    <Content Include="assets\styles\_helpers.scss" />
+    <Content Include="assets\styles\_modules.scss" />
+    <Content Include="assets\styles\_resets.scss" />
+    <Content Include="assets\styles\_screens.scss" />
+    <Content Include="assets\styles\_sgbak\font.css.2014-11-03.14-13-50.5952" />
+    <Content Include="assets\styles\_sgbak\forms.css.1106466.10.2014-10-23.19-14-26.5793" />
+    <Content Include="assets\styles\_sgbak\global.css.1100632.5.2014-10-15.16-02-16.0539" />
+    <Content Include="assets\styles\_sgbak\mai87E3.tmp" />
+    <Content Include="assets\styles\_sgbak\main.css.1100650.2.2014-10-15.16-07-14.5098" />
+    <Content Include="assets\styles\_sgbak\main.css.1112654.7.2014-11-06.16-55-21.0274" />
+    <Content Include="assets\styles\_sgbak\main.scss.1107430.6.2014-10-24.18-24-40.3301" />
+    <Content Include="assets\styles\_sgbak\main.scss.1112443.11.2014-11-06.16-55-21.0024" />
+    <Content Include="assets\styles\_variables.scss" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\images\largeSpinner.gif" />
+    <Content Include="assets\images\overlay-bg.png" />
+    <Content Include="assets\images\skyCorpScreenShot.jpg" />
+    <Content Include="assets\images\smallSpinner.gif" />
+    <Content Include="assets\scripts\functions.js" />
+    <Content Include="assets\scripts\lib\form-customizer.js" />
+    <Content Include="assets\scripts\lib\gtlightbox.js" />
+    <Content Include="assets\scripts\lib\gtmaps.js" />
+    <Content Include="assets\scripts\lib\infobox.js" />
+    <Content Include="assets\scripts\lib\isotope.js" />
+    <Content Include="assets\scripts\lib\jquery-ui.js" />
+    <Content Include="assets\scripts\lib\jquery.iosslider.min.js" />
+    <Content Include="assets\scripts\lib\jquery.js" />
+    <Content Include="assets\scripts\lib\prettify.js" />
+    <Content Include="assets\scripts\lib\validation.js" />
+    <Content Include="assets\scripts\main.js" />
+    <Content Include="assets\styles\icons\css\font-awesome-ie7.css" />
+    <Content Include="assets\styles\icons\css\font-awesome.min.css" />
+    <Content Include="assets\styles\icons\fonts\fontawesome-webfont.svg" />
+    <Content Include="index.htm" />
+    <Content Include="templates\T01.htm" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>63239</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:63239/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

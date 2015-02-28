@@ -1,0 +1,6 @@
+C:\Source\dev\tottem\static\Tottem\Tottem\bin\Tottem.dll.config
+C:\Source\dev\tottem\static\Tottem\Tottem\bin\Tottem.dll
+C:\Source\dev\tottem\static\Tottem\Tottem\bin\Tottem.pdb
+C:\Source\dev\tottem\static\Tottem\Tottem\obj\Debug\Tottem.csprojResolveAssemblyReference.cache
+C:\Source\dev\tottem\static\Tottem\Tottem\obj\Debug\Tottem.dll
+C:\Source\dev\tottem\static\Tottem\Tottem\obj\Debug\Tottem.pdb

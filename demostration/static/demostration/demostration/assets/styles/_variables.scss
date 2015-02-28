@@ -1,0 +1,21 @@
+/*colors*/
+$primary-color: #104B7D;
+$active-color: #0A8FBD;
+$box-color: #EEEEEE;
+$light-color: #FFFFFF;
+$font-color: #333333;
+/*margins and paddings*/
+$global-padding: 10px;
+$global-margin: 10px;
+/*border*/
+$global-border: 1px solid #DDDDDD;
+
+/*media queries breakpoints*/
+$desktop: 1140px;
+$tablet: 766px;
+$mobile: 320px;
+
+/*fonts*/
+$global-font-family: "Arial";
+.global-font { font-family: $global-font-family; font-size: 16px; line-height: 20px; font-weight: 400; color: #333;  }
+.headers { color: $primary-color; margin: 0 0 $global-margin*2 0; font-weight: 400; }

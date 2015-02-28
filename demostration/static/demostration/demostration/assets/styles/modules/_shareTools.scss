@@ -1,0 +1,6 @@
+.share-popup-wrapper { position: relative; display: inline-block; }
+.share-popup { display: none; position: absolute; top: 100%; left: 100%; z-index: 1; padding-left: 16px; border: $global-border; background: $box-color; padding: $global-padding; min-width: 140px; margin-top: $global-margin; margin-left: -30px; }
+.share-popup .share-item { margin-right: $global-margin; }
+.share-popup .share-item a { text-decoration: none !important; }
+.share-popup:before { content: ""; position: absolute; bottom: 100%; left: 0; margin-left: 14px; width: 0; height: 0; border: 10px solid transparent; border-bottom-color: $box-color; z-index: 1; }
+.share-popup:after { content: ""; position: absolute; bottom: 100%; left: 0; margin-left: 14px; width: 0; height: 0; border: 9px solid transparent; border-bottom-color: $box-color; z-index: 2; }
